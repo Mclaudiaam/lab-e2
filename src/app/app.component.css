@@ -1,0 +1,25 @@
+header {
+  background-color: rgba(142, 57, 57, 0.76);
+  color: #b89970;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  margin-bottom: 1em;
+}
+
+header a {
+  color: #b89970;
+  text-decoration: none;
+}
+
+.router-outlet {
+  min-height: 86vh;
+}
+
+
+footer {
+  background-color: rgba(142, 57, 57, 0.76);
+  color: #cecac3;
+  padding: 1em 1em;
+}
