@@ -9,7 +9,6 @@
   border: 1px solid black;
   margin-bottom: 10px;
   padding: 10px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 'deadline actions' 'title title';
@@ -18,7 +17,7 @@
 
 @media screen and (min-width: 768px) {
   .tasks .task {
-    grid-template-columns: 3fr 1fr auto;
+    grid-template-columns: 2fr 1fr auto;
     grid-template-areas: 'title deadline actions';
   }
 }
@@ -32,7 +31,7 @@
 }
 
 .tasks .task .deadline span {
-  padding: 5px;
+  padding: 4px;
   background-color: #cb9ee5;
   border-radius: 8px;
   font-size: 0.8em;

@@ -17,9 +17,12 @@ header a {
   min-height: 86vh;
 }
 
-
 footer {
   background-color: rgba(142, 57, 57, 0.76);
   color: #cecac3;
   padding: 1em 1em;
+}
+
+.spacer {
+  flex: 1 1 auto;
 }
